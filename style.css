@@ -116,7 +116,8 @@ header{
     background-color: #7a83834d;
     border-radius: 10px;
 }
-.headerIcons{
+.headerIcons, .headerIcons a {
+    display:block;
     width:25px;
     color:#f5f5f571;
 }
@@ -124,9 +125,11 @@ header{
 .search input[type=text]{
     width:70%;
     height:70%;
-    background-color: transparent;
+    background-color: #7a838343;
+    padding:10px;
+    border-radius: 5px;
     border:none;
-    color:white;
+    color:rgba(255, 255, 255, 0.324);
 }
 
 .search input:focus{

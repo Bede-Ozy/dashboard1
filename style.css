@@ -125,7 +125,7 @@ header{
 .search input[type=text]{
     width:70%;
     height:70%;
-    background-color: #7a838343;
+    background-color: #7a838318;;
     padding:10px;
     border-radius: 5px;
     border:none;
@@ -187,3 +187,65 @@ header{
     height:900px;
     background-color: #7a8383;
 }
+.leftCont{
+    width:90%;
+    margin:20px auto;
+    height:fit-content;
+}
+
+.leftMain > div{  /* styling applied to the first div child element*/
+    height:fit-content;
+    margin-top:30px;
+}
+
+.navLeft ul{
+    list-style-type: none;
+    border-bottom: 1px solid #7a8383;
+    padding-bottom:20px;
+}
+
+.navLeft li{
+    margin-bottom: 10px;
+}
+
+.navLeft li a{
+    display:block;
+    margin:0;
+    padding:10px 20px 10px 50px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    text-decoration: none;
+    color:#7a8383;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: left;
+    position:relative;
+}
+.navLeft li a svg{
+    color:#7a8383;
+    position:absolute;
+    top:12px;
+}
+
+#leftActive{
+    background-color: #98e5dd;
+    color:#1d2020;
+}
+#leftActive svg{
+    color:#1d2020;
+}
+.lftmenu-leftsvg{
+    left:20px;
+}
+.lftmenu-rightsvg{
+    right:20px;
+}
+
+.navLeft  h2{
+    color:#7a8383;
+    padding:0px 0px 5px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;;
+}
+
+
